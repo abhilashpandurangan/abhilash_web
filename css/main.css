@@ -5,8 +5,8 @@ body{
 }
 
 #landing{
-    height: 150vh;
-    background-image: url('https://slator.com/assets/2016/12/digitization-1599552_960_720.jpg');
+    height: 100vh;
+    background-image : url('../abhi.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body{
 }
 
 #mainText{
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 #intro{
@@ -27,4 +27,5 @@ body{
 }
 
 #p1{
-    height: 350px;
+    height: 500px;
+}
