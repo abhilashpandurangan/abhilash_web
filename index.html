@@ -1,197 +1,778 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Abhilash">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
-<html>
-    <head>
-        <title>Abhilash Pandurangan | My Portfolio</title>
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <!-- Main stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
 
-        <!-- Navbar -->
+    <title>Abhilash Pandurangan</title>
+    <link rel="icon" href="images/favicon.png">
 
-        <div class="navbar-fixed">
-                
-            <nav class="black lighten-5">
-                <div class="container">
-                    <div="nav-wrapper">
-                        <a href="#"  class="brand-logo">Abhilash Pandurangan</a>
-                        <ul class="right hide-on-med-and-down" id="navList">
-                            <li><a href="#landing">Home</a></li>
-                            <li><a href="#intro">About Me</a></li>
-                            <li><a href="#work">Projects</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
+    <!--APPLE TOUCH ICON-->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+
+    <!-- MATERIAL ICON FONT -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- ANIMATION -->
+    <link href="stylesheets/animate.min.css" rel="stylesheet">
+
+
+    <!-- MATERIALIZE -->
+    <link href="stylesheets/materialize.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- CUSTOM STYLE -->
+    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
+
+</head>
+<body>
+
+
+<!--==========================================
+                  PRE-LOADER
+===========================================-->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="box-holder animated bounceInDown">
+                <span class="load-box"><span class="box-inner"></span></span>
+            </div>
+            <!-- NAME & STATUS -->
+            <div class="text-holder text-center">
+                <h2>ABHILASH PANDURANGAN</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--==========================================
+                    HEADER
+===========================================-->
+<header id="home">
+    <nav id="theMenu" class="menu">
+
+        <!--MENU-->
+        <div id="menu-options" class="menu-wrap">
+
+            <!--PERSONAL LOGO-->
+            <div class="logo-flat">
+                <img alt="personal-logo" class="circle img-responsive"  src="images/abhi.jpg">
+            </div>
+            <br>
+
+            <!--OPTIONS-->
+            <a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
+            <a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
+            <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Education</a>
+            <a href="#skills"><i class="title-icon fa fa-sliders"></i>Skills</a>
+            <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Experience</a>
+            <!-- <a href="#portfolios"><i class="title-icon fa fa-image"></i>Gallery</a> -->
+            <a href="#interest"><i class="title-icon fa fa-heart"></i>Interest</a>
+            <a href="#contact"><i class="title-icon fa fa-envelope"></i>Contact</a>
+        </div>
+
+        <!-- MENU BUTTON -->
+        <div id="menuToggle">
+            <div class="toggle-normal">
+                <i class="material-icons top-bar">remove</i>
+                <i class="material-icons middle-bar">remove</i>
+                <i class="material-icons bottom-bar">remove</i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-background section">
+        <div id="v-card-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+
+                        <!-- V-CARD -->
+                        <div id="v-card" class="card">
+
+                            <!-- PROFILE PICTURE -->
+                            <div id="profile" class="right">
+                                <img alt="profile-image" class="img-responsive" src="images/abhi.jpg">
+                                <div class="slant"></div>
+                            </div>
+
+                            <div class="card-content">
+
+                                <!-- NAME & STATUS -->
+                                <div class="info-headings">
+                                    <h4 class="text-uppercase left">ABHILASH PANDURANGAN</h4>
+                                    <h6 class="text-capitalize left">Aspiring Data Scientist and Machine Learning Enthusiast</h6>
+                                </div>
+
+                                <!-- CONTACT INFO -->
+                                <div class="infos">
+                                    <ul class="profile-list">
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">email</i></span>
+                                            
+                                            <span class="content">abhilashpandurangan@gmail.com</span>
+                                        </li>
+
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">phone</i></span>
+                                            <span class="content">+91 9445126035</span>
+                                        </li>
+
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">place</i></span>
+                                            <span class="content">SRM Institute of Science and Technology, Kattankulathur, Chennai.</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <!--LINKS-->
+                                <div class="links">
+                                    <!-- FACEBOOK-->
+                                    <a href="https://www.facebook.com/abhilash.pandurangan" target="_blank" id="first_one"
+                                       class="social btn-floating indigo"><i
+                                            class="fa fa-facebook"></i></a>
+                                    <!-- TWITTER-->
+                                    <a href="https://twitter.com/APRabhilash" target="_blank" class="social  btn-floating blue"><i
+                                            class="fa fa-twitter"></i></a>
+                                 
+                                    <!-- LINKEDIN-->
+                                    <a href="https://www.linkedin.com/in/abhilash-pandurangan" target="_blank" class="social  btn-floating blue darken-3"><i
+                                            class="fa fa-linkedin"></i></a>
+                                    <!-- RSS-->
+                                    <a href="https://github.com/abhilashpandurangan" target="_blank"class="social  btn-floating black"><i
+                                            class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </nav>
-            
+            </div>
         </div>
+    </div>
+</header>
 
-        <!-- Landing Screen -->
-
-        <div class="section" id="landing">
-                <h4 id="mainText" class="center">Hello!! I'm</h5>
-				
-                <h1 style="color: white;"  class="center">
-                    <b>Abhilash Pandurangan</b>
-                </h1>
-                <h3 id="mainText" class="center white-text">Data Science and Machine Learning Ethusiast</h3>
-                
-        </div>
-
-        <!-- Intro and service -->
-
-        <div class="section" style ="background-color : #101010 " >
-            <div class="container">
-                <div class="row center">
-                   
-                    <div class="col s12 m12 offset-l1 l10 ">
-                        <h4 class="center"><b>ABOUT ME</b></h4>
+<!--==========================================
+                   ABOUT
+===========================================-->
+<div id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- DETAILS -->
+                <div id="about-card" class="card">
+                    <div class="card-content" class="flow-text">
+                        <!-- ABOUT PARAGRAPH -->
                         <p>
-                            I am presently pursuing B.Tech in Computer Science from SRM Institute Of Science and Technology. 
-                            I'm interested in Machine learning and Data Science.
-                            <br/>
-                            
+                            Hey! I'm Abhilash Pandurangan, and I'm pursuing my Undergraduate in Computer Science at SRM University. <br>
+                            I'm interested in Machine learning and Computer Vision problems.
+							I'm aspire to be Data Scientist and solve problems using ML.
+                             <br>
+							I have experience in building web app using PHP, HTML, Materialize CSS, Jquery and MySQL.<br>
+                            I have also worked on data analytics projects and I'm currently working on computer vision problems.
+                        </p>
+                    </div>
+
+                    <!-- BUTTONS -->
+                    <div id="about-btn" class="card-action">
+                        <div class="about-btn">
+                            <!-- DOWNLOAD CV BUTTON -->
+                            <!-- <a href="#" class="btn waves-effect">Download CV</a> -->
+                            <!-- CONTACT BUTTON -->
+                            <a href="https://www.linkedin.com/in/abhilash-pandurangan" target="_blank" class="btn waves-effect">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--==========================================
+                   EDUCATION
+===========================================-->
+<section id="education" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-graduation-cap"></i>Education</h4>
+        </div>
+
+        <div id="timeline-education">
+
+            <!-- FIRST TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="fa fa-graduation-cap"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">B.Tech Computer Science and Engineering</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>SRM Institute of Science and Technology, KTR, Chennai</small>
+                            </h6>
+                            <h6>
+                                    <small>May 2015 - present</small>
+                                </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="fa fa-certificate"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">12th Grade</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>D.A.V. Public School, Velachery, Chennai</small>
+                            </h6>
+                            <h6>
+                                <small>May 2015</small>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                   SKILLS
+===========================================-->
+<section id="skills" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-sliders"></i>Skills</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="skills-card" class="card">
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <!-- FIRST SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Languages</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Python</span></div>
+                                    <div class="skillbar-bar"></div>
+                                   
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>C++</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="60%">
+                                    <div class="skillbar-title"><span>R Programming</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="50%">
+                                    <div class="skillbar-title"><span>Java</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                   EXPERIENCE
+===========================================-->
+<section id="experience" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-suitcase"></i>Experience</h4>
+        </div>
+
+        <div id="timeline-experience">
+		     <!-- FIRST TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="title-icon fa fa-code"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Tech Member</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>SRM Developers Student Club - Initated by Google Devlopers</small>
+                            </h6>
+                            <h6>
+                                <small>Jan 2018 - Present</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            SRM Developer Student Club (DSC) is a Google Developers program for university students to learn mobile and web development skills. 
+							As a tech member, I have organised workshops and even trained students in workshops like android development workshop, Machine Learning Crash Course and Web Development.
+                            I have also developed team website using materialize css, html and firebase.
+						</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="title-icon fa fa-pencil-square-o"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Teaching Assistant</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>National University of Singapore (NUS)</small>
+                            </h6>
+                            <h6>
+                                <small>June 2018 </small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Selected as a teaching assistant for Global Academic Internship Program (GAIP) on Big data using ANN at NUS, Singapore.
+							Being TA, I aided the professors from NUS for handling the classes for quiz, assessment, project and cleared the doubts for students.
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THIRD TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="title-icon fa fa-wrench"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Global Academic Internship Program, Singapore</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Big data analytics using ANN</small>
+                            </h6>
+                            <h6>
+                                <small>December 2017</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                           Global Academic Internship Programme(GAIP) was organised by Corporate Gurukul in association with HPE(Hewlett Packard Enterprise) and NUS(National University of Singapore) for Big data analytics using ANN. The program was conducted in Singapore from 16th December 2017 to 6th January 2018. 
+						   During this program, I was trained in Big data using Hadoop, Neural Networks and machine learning using python and R. 
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL  -->
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOURTH TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="title-icon fa fa-book"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Student Web Developer</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Jul 2017 - Dec 2017</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            As a student web developer, I built online portals like eThink along with my team for SRM CARE. 
+							Used HTML, materialise css, javascript, ajax and php for making online psychometric test system for the university.
                         </p>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!--Parallax-->
-         <div id="p1" class="parallax-container">
-            <div  class="parallax">
-                <img src="https://pbs.twimg.com/profile_banners/402077643/1492512261/1500x500">
-                
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 center white-text">
-                        <h1><b>QUOTE</b></h1>
-                        <h4 >"Don’t be trapped by dogma –
-                            which is living with the results of other people’s thinking. <br />
-                            Don’t let the noise of other’s opinions drown out your own inner voice."
-                        </h4>
-                    </div>
-                </div>
-            </div>
-                
-        </div>
-
-        <!--Work-->
-        <div class="section" style="background-color: #FFFFF;" id="work">
-            <div class="container black-text">
-                <h3 class="header text_b center">My Projects </h3>
-                <div class="row ">
-                    <div class="col s12 m12 l4">
-                        <div class="card ">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="https://user-images.githubusercontent.com/26179770/37278850-07bbefd8-260f-11e8-83e6-eae457a97ff9.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator purple-text text-lighten-5">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a class="" href="#">Project link</a></p>
-                            </div>
-                            <div class="card-reveal  ">
-                                <span class="card-title ">Project Title <i class="mdi-navigation-close right"></i></span>
-                                <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                            </div>
+			 <!-- FIFTH TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="title-icon fa fa-book"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Data Structures Intern</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>May 2017 – Jun 2017</small>
+                            </h6>
                         </div>
-                    </div>  
-                    <div class="col s12 m12 l4">
-                        <div class="card  ">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="https://user-images.githubusercontent.com/26179770/37278850-07bbefd8-260f-11e8-83e6-eae457a97ff9.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator purple-text text-lighten-5">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a class="" href="#">Project link</a></p>
-                            </div>
-                            <div class="card-reveal  ">
-                                <span class="card-title ">Project Title <i class="mdi-navigation-close right"></i></span>
-                                <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m12 l4">
-                        <div class="card  ">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="https://user-images.githubusercontent.com/26179770/37276972-5da20028-2609-11e8-8359-4628ff3f1a94.png">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator ">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a class="" href="#">Project link</a></p>
-                            </div>
-                            <div class="card-reveal  ">
-                                <span class="card-title purple-text text-lighten-5">Project Title <i class="mdi-navigation-close right"></i></span>
-                                <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    
-        <!-- Skill Sets -->
-
-        <div class="section" style="background-color: #101010;" id="skillsets">
-            <div class="container">
-                <div class="row">
-                    <h1 class="center white-text">
-                        My Skills
-                    </h1>
-                </div>
-                <div class="row center">
-                    <div class="col s12 m12 l3">
-                        <img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37278917-3c5a76c4-260f-11e8-8a95-92f8b130f9be.png">
-                    </div>
-                   
-                    <div class="col s12 m12 l3">
-                        <img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37279017-7c6112e6-260f-11e8-8165-5c3459c12222.png">
-                    </div>
-                    <div class="col s12 m12 l3">
-                        <img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37279040-8e589b7c-260f-11e8-8d03-691c29f2a402.png">
-                    </div>
-					 <div class="col s12 m12 l3">
-                        <img class="responsive-img circle" src="https://d20vrrgs8k4bvw.cloudfront.net/images/open-graph/en-EU/front-end-web-developer-nanodegree--nd001.jpg" width = "240px" height="250px">
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Interned towards the auto evaluation tool eLab (online programming system for SRM CARE) for the Data structures domain.
+                        </p>
                     </div>
                 </div>
             </div>
+			
+			
+			
+        </div>
+    </div>
+</section>
+
+
+<!-- ==========================================
+                  MODALS
+
+
+<!--MODAL ONE
+<div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-1">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"id="myModalLabel-1">Automation is  <small><i  class ="title-icon fa fa-heart" ></i></small></h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY
+            <div class="modal-body" class="flow-text">
+                <p>
+                    It was during my first few  months in college when I unlocked my true laziness. 
+                    From the simplest tasks like logging into wifi automatically to solving online coursework, 
+                    life became so much more sweeter with automation. Movies downloading automatically every night, 
+                    music playing when I want, it became more of a hobby with time. And of course with more 
+                    automation comes more power!
+
+                    <blockquote>
+                        <i>"Kabhi kabhi lagta hai apun hi bhagwan hai"</i><br><br>
+                        <small><img src="images/kabhi.jpg" style="max-height: 200px; width: auto;"></small>
+                    </blockquote>
+                </p>
+            </div>
+            <!--MODAL FOOTER
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL TWO
+<div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-2">EDUCATION AT Y</h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY
+            <div class="modal-body">
+                <p>
+                    I have learned a great many things from participating in varsity football.
+                    It has changed my entire outlook on and attitude toward life. Before my
+                    freshman year at [high-school], I was shy, had low self-esteem and turned
+                    away from seemingly impossible challenges. Football has altered all of these
+                    qualities. On the first day of freshman practice, the team warmed up with a
+                    game of touch football. The players were split up and the game began. However,
+                </p>
+            </div>
+            <!--MODAL FOOTER
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL THREE
+<div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-3">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-3">EDUCATION AT Z</h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY
+            <div class="modal-body">
+                <p>
+                    I have learned a great many things from participating in varsity football.
+                    It has changed my entire outlook on and attitude toward life. Before my
+                    freshman year at [high-school], I was shy, had low self-esteem and turned
+                    away from seemingly impossible challenges. Football has altered all of these
+                    qualities. On the first day of freshman practice, the team warmed up with a
+                    game of touch football. The players were split up and the game began. However,
+                </p>
+            </div>
+            <!--MODAL FOOTER
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL FOUR
+<div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-4">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-4">My Journey with Team ROBOCON</h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY
+            <div class="modal-body" class="flow-text">
+                <p>
+                    I started as a young coder at ROBOCON when I first joined SRM. SInce then, it has been a long while, during which we worked not only 
+                    on Arduino and RasPi but also on other experimental platforms like ROS and Gazebo. Here I have worked on image acquisition and recognition for 
+                    our final competition at ABU ROBOCON. During this I developed an in-depth understanding of Robotics, and how it can change the world around us, 
+                    from automating everyday tasks to doing extraordinary feats. ROBOCON gave me the wings to pursue my dreams by teaching me the virtues of 
+                    hard work, self-learning, dedication, team work and time-management. Here I developed a very unique skillset which has helped me in various tasks 
+                    that I later took up in my career.
+                </p>
+            </div>
+            <!--MODAL FOOTER
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL FIVE
+<div class="modal fade" id="myModal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-5">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-5">EXPERIENCE AT M</h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY
+            <div class="modal-body">
+                <p>
+                    I have learned a great many things from participating in varsity football.
+                    It has changed my entire outlook on and attitude toward life. Before my
+                    freshman year at [high-school], I was shy, had low self-esteem and turned
+                    away from seemingly impossible challenges. Football has altered all of these
+                    qualities. On the first day of freshman practice, the team warmed up with a
+                    game of touch football. The players were split up and the game began. However,
+                </p>
+            </div>
+            <!--MODAL FOOTER
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+===========================================  
+-->
+
+
+<!--==========================================
+                   INTEREST
+===========================================-->
+<section id="interest" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-heart"></i>Interest</h4>
         </div>
 
-        <!-- Add FIXED ACTION BUTTON -->
+        <div id="interest-card" class="card">
+            <!--INTEREST TEXT-->
+            <div class="card-content" class="flow-text">
+                <p>
+                    First of all, I love watching TV shows like Big Bang Theory. I haven't binge-watched any of them as I like to watch in series.
+					Programming and coffee is passion. I love exploring new countries and would like to travel around the world.
+					Recently, I travelled to Singapore during New year 2018 and it was amazing!!
+					I have been to many countries like Malayasia, Thailand, Sri Lanka, China and Singapore.
+				    I love learning new things and would love to spread my knowledge to others!
+                </p>
+            </div>
 
-        <div class="fixed-action-btn vertical">
-            <a class="btn-floating btn-large  blue-grey darken-4">
-                <i class="fa fa-globe"></i>
-            </a>
-            <ul>
-                <li><a class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="btn-floating cyan lighten-1"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="btn-floating red darken-3"> <i class="fa fa-youtube"></i></a></li>
-                <li><a target="_blank" href="" class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
+            <!--INTEREST ICONS-->
+            <div class="row no-gutters">
+
+                <!--INTEREST ICON ONE-->
+           
+                <!--INTEREST ICON TWO-->
+                <div class="col-md-3 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-television"></i>
+                        <span>TV Shows</span>
+                    </div>
+                </div>
+               
+                <!--INTEREST ICON FOUR-->
+                <div class="col-md-3 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-code"></i>
+                        <span>Programming</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON FIVE-->
+                <div class="col-md-3 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-plane"></i>
+                        <span>Traveling</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON SIX-->
+                <div class="col-md-3 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-book"></i>
+                        <span>Learning</span>
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </div>
+</section>
 
-        <!-- FOOTER -->
+<!--==========================================
+                  CONTACT
+===========================================-->
+<section id="contact" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-envelope"></i>Contact</h4>
+        </div>
+        <div class="row">
+            <div id="contact-card" class="col-md-12 col-sm-12 col-xs-12">
+                <!-- CONTACT FORM -->
+                <div class="card">
+                    <div class="card-content">
+                        
+                            <!-- NAME -->
+                            <div class="input-field">
+                                <input id="first_name" type="text" class="validate" name="first_name" required>
+                                <label for="first_name">Name</label>
+                            </div>
+                            <!--SUBJECT-->
+                            <div class="input-field">
+                                <input id="sub" type="text" class="validate" name="sub">
+                                <label for="sub">Subject</label>
+                            </div>
+                            <!--EMAIL-->
+                            <div class="input-field">
+                                <input id="email" type="email" class="validate" name="email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <!--MESSAGE-->
+                            <div class="input-field">
+                                <textarea id="textarea1" class="materialize-textarea" name="message"
+                                          required></textarea>
+                                <label for="textarea1">Message</label>
+                            </div>
+                            <!-- SEND BUTTON -->
+                            <div class="contact-send">
+                                <button id="submit" name="contactSubmit" type="submit"
+                                        class="btn waves-effect">Send
+                                </button>
+                            </div>
+                        
+                    </div>
+                    <!--FORM LOADER-->
+                    <div id="form-loader" class="progress is-hidden">
+                        <div class="indeterminate"></div>
+                    </div>
+                </div>
+            </div>
 
-        <footer class="section page-footer black">
-          <div class="container center-align">
-            &#169; Abhilash Pandurangan
-          </div>
-      </footer>
+        </div>
+    </div>
+</section>
 
-        
-        
-        
+<!--SCROLL TO TOP-->
+<div id="scroll-top">
+    <div id="scrollup"><i class="fa fa-angle-up"></i></div>
+</div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+
+<!-- ================== SCRIPTS ================== -->
+<script src="javascript/jquery-2.1.3.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+<script src="javascript/materialize.min.js"></script>
+<script src="javascript/markerwithlabel.min.js"></script>
+<script src="javascript/retina.min.js"></script>
+<script src="javascript/scrollreveal.min.js"></script>
+<script src="javascript/jquery.touchSwipe.min.js"></script>
+<script src="javascript/custom.js"></script>
+
+
+</body>
 </html>
